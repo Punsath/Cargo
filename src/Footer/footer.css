@@ -1,0 +1,44 @@
+.btn-yellow {
+  background-color: rgb(255, 115, 0) !important; /* Change background color to yellow */
+  border-radius: 2% !important;
+}
+.footerall{
+  background-color: rgb(38, 41, 46);
+  color: white;
+}
+/* footer.css */
+.nav-item a {
+  color: rgb(241, 236, 236) !important;
+}
+
+.nav-item  {
+  color: rgb(241, 236, 236) !important;
+}
+.yellow-underline {
+  border-bottom: 1px dashed !important;
+  border-image: linear-gradient(to right, rgb(255, 115, 0) 50%, rgb(38, 41, 46) 50%) 1;
+  
+}
+.scroll-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgb(255, 115, 0);
+  color: white;
+  border: none;
+  border-radius: 0%;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.scroll-top-btn:hover {
+  background-color: rgb(182, 120, 69);
+}
+
+.sub{
+  color: white !important;
+}
+
+
+

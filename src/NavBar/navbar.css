@@ -1,0 +1,112 @@
+/* navbar.css */
+
+.navbody {
+  background: linear-gradient(to right, #ffffff, #ffffff);
+}
+
+@media (max-width: 991.98px) {
+  .navbar-container,
+  .navbar-collapse {
+    background: linear-gradient(to right, #ffffff, #ffffff);
+  }
+  .navbar {
+    height: 90px; /* Adjust the height for small screens */
+  }
+}
+
+.navbar-container {
+  width: 100%;
+  top: 0;
+  z-index: 999; /* Ensure the navbar is above other content */
+}
+
+.navbar {
+  height: 70px; /* Adjust the height for all screen sizes */
+}
+
+/* navbar.css */
+
+/* Gray hover effect for nav links */
+.navbar .nav-link:hover {
+  color: gray !important;
+}
+
+/* Gray hover effect for dropdown titles */
+.navbar .nav-link.dropdown-toggle:hover, .navbar .dropdown-item:hover {
+  color: gray !important;
+}
+
+.nav-link {
+  position: relative;
+  text-decoration: none;
+}
+
+/* Add this rule to remove the underline style */
+.dropdown-item {
+  text-decoration: none !important;
+}
+
+/* Adjust dropdown heading and items color */
+.navbar .nav-link.dropdown-toggle, .navbar .dropdown-item {
+  color: black !important;
+}
+
+/* Adjust dropdown background */
+.navbar .dropdown-menu {
+  background-color: white !important;
+}
+
+/* Adjust dropdown arrow color */
+.navbar .dropdown-toggle::after {
+  color: black !important;
+}
+
+.nav-link {
+  position: relative;
+  text-decoration: none;
+}
+
+.navbar .nav-link::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 70%;
+  background-color: rgb(248, 192, 6);
+  transform: scaleY(0);
+  transition: transform 0.3s ease;
+}
+
+
+.nav-link:hover::before {
+  transform: scaleY(1);
+}
+
+.nav-link:hover {
+  color: #666 !important;
+}
+
+/*
+.text-effect {
+    margin: 10px auto;
+    text-align: center;
+    color: rgb(255, 255, 255); 
+    font-size: 9em;
+    transition: 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;  Set the width to 100%
+}
+*/
+
+/*
+.text-effect {
+    text-shadow: 0 1px 0 #e8e3e3, 0 2px 0 #e8e3e3,
+        0 3px 0 #e8e3e3, 0 4px 0 #e8e3e3,
+        0 5px 0 #e8e3e3, 0 6px 0 #e8e3e3,
+        0 7px 0 #e8e3e3, 0 8px 0 #e8e3e3,
+        0 9px 0 #e8e3e3, 0 10px 0 #e8e3e3,
+        0 11px 0 #e8e3e3, 0 12px 0 #e8e3e3,
+        0 20px 30px rgba(250, 249, 249, 0.5); 
+}
+*/

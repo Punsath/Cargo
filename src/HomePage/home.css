@@ -1,0 +1,235 @@
+/* Default styles (for all screen sizes) */
+.red-background {
+  background-color: white;
+ 
+ 
+}
+.navbar {
+  background-color: white; /* Make the navbar fully opaque */
+  height: 70px; /* Adjust the height for all screen sizes */
+}
+
+.red-background h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.trust{
+  color: rgb(35, 33, 33);
+}
+
+.scrollto {
+  background-color: rgb(248, 192, 6) !important;
+  border-radius: 0 !important;
+  color: white !important;
+}
+.stats-container {
+  background-image: url('../assets/stat/stat.png'); /* Adjust the path as needed */
+  background-size: cover;
+  background-position: center;
+  padding: 50px; /* Add padding as needed */
+}
+
+.best {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.yellow-square {
+  width: 7px;
+  height: 20px;
+  background-color: rgb(224, 174, 7);
+}
+
+.new {
+  background-color: rgb(224, 174, 7) !important;
+  border-radius: 0 !important;
+  color: white !important;
+  border-style: none !important;
+}
+
+.partner {
+  color: rgb(248, 192, 6);
+}
+
+.img-container {
+  position: relative;
+  z-index: 1;
+}
+
+.content-container {
+  position: relative;
+  z-index: 2;
+}
+
+.world {
+  color: orangered;
+}
+.stat2{
+  font-weight: bold;
+}
+
+.aboutbtn {
+  border-radius: 0 !important;
+  background-color: rgb(238, 233, 233) !important;
+  border: none !important;
+  color: rgb(16, 107, 107) !important;
+  font-weight: bold !important;
+}
+
+.aboutbtn:hover {
+  background-color: rgb(217, 211, 211) !important;
+  color: rgb(16, 107, 107) !important;
+}
+
+.service {
+  text-align: center;
+}
+
+.service h6 {
+  color: rgba(133, 209, 20, 0.974);
+}
+
+.custom-card {
+  width: 90%;
+  border-radius: 0;
+}
+
+.icon-link {
+  margin-top: 5px !important;
+}
+
+.custom-card .icon-link {
+  text-decoration: none;
+  color: black;
+}
+
+.custom-card .icon-link svg {
+  margin-bottom: -3px;
+}
+
+.stat {
+  color: rgb(5, 5, 67);
+}
+
+.stat2 {
+  color: rgb(5, 5, 67);
+}
+
+.news {
+  text-align: center;
+}
+
+.news h6 {
+  color: rgba(3, 3, 3, 0.974);
+}
+
+.custom-card {
+  margin-bottom: 10px;
+  background-color: rgba(246, 244, 244, 0.938);
+}
+
+.custom-card:hover .card-content {
+  background-color: rgb(13, 182, 239);
+  color: white;
+}
+
+.custom-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-row .col-md-2 {
+  flex: 0 0 auto;
+  width: 20%; /* Each column takes 20% of the container */
+  max-width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.custom-row .col-md-2 img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 992px) {
+  .custom-row .col-md-2 {
+    width: 33.33%; /* Each column takes 33.33% of the container */
+  }
+}
+
+@media (max-width: 768px) {
+  .custom-row .col-md-2 {
+    width: 50%; /* Each column takes 50% of the container */
+  }
+}
+
+@media (max-width: 576px) {
+  .custom-row .col-md-2 {
+    width: 100%; /* Each column takes 100% of the container */
+  }
+}
+
+.blue-square {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: rgb(13, 182, 239);
+  margin-right: 10px;
+}
+
+.why {
+  color: gray;
+}
+
+.trust {
+  font-weight: bold;
+}
+
+.plus-mark {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  margin-left: 130px;
+}
+
+/* Media Queries for Responsive Design */
+
+/* Define styles for large screens */
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 1140px; /* Adjust as needed */
+    margin: 0 auto;
+  }
+
+  .img-fluid {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Define styles for medium screens */
+@media screen and (max-width: 991px) {
+  .container {
+    padding: 0 15px; /* Adjust as needed */
+  }
+}
+
+/* Define styles for small screens */
+@media screen and (max-width: 768px) {
+  .red-background h1 {
+    font-size: 40px; /* Adjust as needed */
+  }
+}
+
+/* Define styles for extra small screens */
+@media screen and (max-width: 576px) {
+  .red-background h1 {
+    font-size: 30px; /* Adjust as needed */
+  }
+}
+
