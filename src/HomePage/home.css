@@ -1,12 +1,12 @@
-/* Default styles (for all screen sizes) */
+
 .red-background {
   background-color: white;
  
  
 }
 .navbar {
-  background-color: white; /* Make the navbar fully opaque */
-  height: 70px; /* Adjust the height for all screen sizes */
+  background-color: white; 
+  height: 70px; 
 }
 
 .red-background h1 {
@@ -23,10 +23,10 @@
   color: white !important;
 }
 .stats-container {
-  background-image: url('../assets/stat/stat.png'); /* Adjust the path as needed */
+  background-image: url('../assets/stat/stat.png'); 
   background-size: cover;
   background-position: center;
-  padding: 50px; /* Add padding as needed */
+  padding: 50px; 
 }
 
 .best {
@@ -141,7 +141,7 @@
 
 .custom-row .col-md-2 {
   flex: 0 0 auto;
-  width: 20%; /* Each column takes 20% of the container */
+  width: 20%; 
   max-width: 100%;
   padding: 5px;
   box-sizing: border-box;
@@ -154,19 +154,19 @@
 
 @media (max-width: 992px) {
   .custom-row .col-md-2 {
-    width: 33.33%; /* Each column takes 33.33% of the container */
+    width: 33.33%; 
   }
 }
 
 @media (max-width: 768px) {
   .custom-row .col-md-2 {
-    width: 50%; /* Each column takes 50% of the container */
+    width: 50%; 
   }
 }
 
 @media (max-width: 576px) {
   .custom-row .col-md-2 {
-    width: 100%; /* Each column takes 100% of the container */
+    width: 100%; 
   }
 }
 
@@ -197,12 +197,10 @@
   margin-left: 130px;
 }
 
-/* Media Queries for Responsive Design */
 
-/* Define styles for large screens */
 @media screen and (min-width: 992px) {
   .container {
-    max-width: 1140px; /* Adjust as needed */
+    max-width: 1140px; 
     margin: 0 auto;
   }
 
@@ -212,24 +210,24 @@
   }
 }
 
-/* Define styles for medium screens */
+
 @media screen and (max-width: 991px) {
   .container {
-    padding: 0 15px; /* Adjust as needed */
+    padding: 0 15px; 
   }
 }
 
-/* Define styles for small screens */
+
 @media screen and (max-width: 768px) {
   .red-background h1 {
-    font-size: 40px; /* Adjust as needed */
+    font-size: 40px; 
   }
 }
 
-/* Define styles for extra small screens */
+
 @media screen and (max-width: 576px) {
   .red-background h1 {
-    font-size: 30px; /* Adjust as needed */
+    font-size: 30px; 
   }
 }
 

@@ -10,28 +10,24 @@
     background: linear-gradient(to right, #ffffff, #ffffff);
   }
   .navbar {
-    height: 90px; /* Adjust the height for small screens */
+    height: 90px; 
   }
 }
 
 .navbar-container {
   width: 100%;
   top: 0;
-  z-index: 999; /* Ensure the navbar is above other content */
+  z-index: 999; 
 }
 
 .navbar {
-  height: 70px; /* Adjust the height for all screen sizes */
+  height: 70px; 
 }
 
-/* navbar.css */
-
-/* Gray hover effect for nav links */
 .navbar .nav-link:hover {
   color: gray !important;
 }
 
-/* Gray hover effect for dropdown titles */
 .navbar .nav-link.dropdown-toggle:hover, .navbar .dropdown-item:hover {
   color: gray !important;
 }
@@ -41,22 +37,21 @@
   text-decoration: none;
 }
 
-/* Add this rule to remove the underline style */
 .dropdown-item {
   text-decoration: none !important;
 }
 
-/* Adjust dropdown heading and items color */
+
 .navbar .nav-link.dropdown-toggle, .navbar .dropdown-item {
   color: black !important;
 }
 
-/* Adjust dropdown background */
+
 .navbar .dropdown-menu {
   background-color: white !important;
 }
 
-/* Adjust dropdown arrow color */
+
 .navbar .dropdown-toggle::after {
   color: black !important;
 }

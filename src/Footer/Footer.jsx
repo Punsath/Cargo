@@ -34,12 +34,12 @@ const Footer = () => {
       <div className='footerall'><br />
         <div className="container">
           <div className='search'>
-            <div className="row justify-content-center"> {/* Added justify-content-center class */}
+            <div className="row justify-content-center"> 
               <div className="col-md-7">
                 <h2>Weekly Newsletter</h2>
                 <p>There are many variations of passages of Lorem Ipsum available</p>
               </div>
-              <div className="col-md-5"> {/* Removed text-end */}
+              <div className="col-md-5"> 
                 <form className="d-flex flex-column flex-sm-row w-100 gap-2">
                   <input id="newsletter1" type="text" name="email" className="form-control rounded-3" placeholder="Enter Your Mail" style={{borderRadius: '2%'}} />
                   <button className="btn btn-yellow sub" type="submit" style={{border: 'none'}}>Subscribe</button>

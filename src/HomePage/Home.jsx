@@ -35,8 +35,8 @@ const Home = () => {
                                 <h1 className='best'>Best Shipping</h1>
                                 <h1 className='partner'><b>Partner</b></h1>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum id repellat ut? Aliquid molestiae asperiores assumenda. Excepturi totam, deleniti quod ab assumenda optio illum eius nostrum beatae voluptatum illo placeat!</p>
-                                <a href="#about" className="btn btn-get-started scrollto" style={{ marginBottom: '20px' , fontSize: '13px'}}><b>DISCOVER MORE</b></a> {/* Added marginBottom */}
-                                <div className="text-left " style={{ marginTop: '120px' }}> {/* Added marginTop */}
+                                <a href="#about" className="btn btn-get-started scrollto" style={{ marginBottom: '20px' , fontSize: '13px'}}><b>DISCOVER MORE</b></a> 
+                                <div className="text-left " style={{ marginTop: '120px' }}> 
                                     <a href="#new-section" className="btn btn-secondary btn-lg new">2 / 2 <img src={left}  alt="Admin Icon" width="18" height="18"/> <img src={right}  alt="Admin Icon" width="18" height="18"/></a>
                                 </div>
                             </div>
